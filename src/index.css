@@ -19,3 +19,18 @@
   background-clip: text;
   color: transparent;
 }
+.hover-icons {
+  animation: float 1s ease-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
