@@ -3,7 +3,7 @@ import FooterIcons from "./FooterIcons";
 
 const Footer = () => {
   return (
-    <footer className="bg-hermes-purple p-10 flex justify-between items-center">
+    <footer className="bg-hermes-purple p-10 flex flex-col md:flex-row md:justify-between gap-9 md:gap-0 md:items-center items-start">
       <div className="flex items-center justify-center gap-3">
         <img src={rectangle} alt="rectangle" />
         <div>

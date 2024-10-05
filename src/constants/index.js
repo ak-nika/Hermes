@@ -55,3 +55,9 @@ export const footerLinks = [
     link: "#",
   },
 ];
+
+export const landingLinks = [
+  { id: 1, name: "Home", path: "/", selected: true },
+  { id: 2, name: "Get Started", path: "/", selected: false },
+  { id: 3, name: "Contact Us", path: "/", selected: false },
+];

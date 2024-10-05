@@ -12,6 +12,8 @@ import instagram from "./icons/instagram.svg";
 import facebook from "./icons/facebook.svg";
 import youtube from "./icons/youtube.svg";
 import x from "./icons/x.svg";
+import menu from "./icons/menu.svg";
+import close from "./icons/close.svg";
 
 export const landing = {
   logo,
@@ -24,7 +26,7 @@ export const landing = {
   copy2,
 };
 
-export { rectangle };
+export { rectangle, menu, close };
 
 export const footerIcons = {
   whatsapp,

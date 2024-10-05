@@ -1,18 +1,11 @@
 import { Link } from "react-router-dom";
-import { landing } from "../../assets";
-import Button from "../../components/Button";
-import Section from "../../components/Section";
+import Button from "../components/Button";
+import Section from "../components/Section";
 
 const Hero = () => {
   return (
     <Section>
-      <div className="my-[80px] mx-[120px] h-[453.38px] flex flex-col justify-center items-center relative">
-        <img
-          src={landing.bodyIcons}
-          alt="icons"
-          className="absolute w-full h-full top-0 left-0 hover-icons"
-        />
-
+      <div className="my-[80px] md:mx-[120px] mx-4 md:h-[453.38px] flex flex-col justify-center items-center">
         <div className="flex items-center justify-center">
           <p className="poppins bg-white border-hermes-blue border-[1px] font-normal text-[16px] leading-[24px] text-center w-fit py-2 px-4 rounded-full">
             You are{" "}
