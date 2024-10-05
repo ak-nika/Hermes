@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { landing } from "../assets";
+import { landing } from "../../assets";
 
 const Nav = () => {
   return (
