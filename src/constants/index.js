@@ -1,3 +1,5 @@
+import { footerIcons } from "../assets";
+
 export const whyDetails = [
   {
     id: 1,
@@ -18,5 +20,38 @@ export const whyDetails = [
     id: 4,
     title: "Safe & Secure",
     text: "Safety of our users using this anonymous messaging platform is very important for us.",
+  },
+];
+
+export const footerLinks = [
+  {
+    id: 1,
+    name: "whatsapp",
+    img: footerIcons.whatsapp,
+    link: "#",
+  },
+  {
+    id: 2,
+    name: "instagram",
+    img: footerIcons.instagram,
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "facebook",
+    img: footerIcons.facebook,
+    link: "#",
+  },
+  {
+    id: 4,
+    name: "youtube",
+    img: footerIcons.youtube,
+    link: "#",
+  },
+  {
+    id: 5,
+    name: "x",
+    img: footerIcons.x,
+    link: "#",
   },
 ];

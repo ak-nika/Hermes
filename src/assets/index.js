@@ -6,6 +6,12 @@ import sparkle from "./icons/sparkle.svg";
 import cupid from "./icons/cupid.svg";
 import copy1 from "./icons/copy1.svg";
 import copy2 from "./icons/copy2.svg";
+import rectangle from "./icons/rectangle.svg";
+import whatsapp from "./icons/whatsapp.svg";
+import instagram from "./icons/instagram.svg";
+import facebook from "./icons/facebook.svg";
+import youtube from "./icons/youtube.svg";
+import x from "./icons/x.svg";
 
 export const landing = {
   logo,
@@ -16,4 +22,14 @@ export const landing = {
   cupid,
   copy1,
   copy2,
+};
+
+export { rectangle };
+
+export const footerIcons = {
+  whatsapp,
+  instagram,
+  facebook,
+  youtube,
+  x,
 };

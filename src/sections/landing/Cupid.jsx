@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 const Cupid = () => {
   return (
     <section className="p-[50px]">
-      <div className="hermes-gradient w-full p-10 flex items-center shrink-0">
+      <div className="hermes-gradient w-full p-10 flex items-center shrink-0 rounded-2xl">
         <div className="w-[70%]">
           <img src={landing.cupid} alt="cupid" width={411} height={288} />
         </div>
