@@ -1,4 +1,4 @@
-import { landing } from "../assets";
+import { cupid, copy1, copy2 } from "../assets";
 import Button from "../components/Button";
 
 const Cupid = () => {
@@ -6,7 +6,7 @@ const Cupid = () => {
     <section className="md:p-[50px] p-5">
       <div className="hermes-gradient w-full p-10 flex items-center shrink-0 rounded-2xl">
         <div className="w-[70%] md:block hidden">
-          <img src={landing.cupid} alt="cupid" width={411} height={288} />
+          <img src={cupid} alt="cupid" width={411} height={288} />
         </div>
 
         <div>
@@ -21,13 +21,9 @@ const Cupid = () => {
           <Button className={`flex items-center gap-2 mt-4`}>
             Copy Link
             <div className="bg-red-100 relative w-[20px]">
+              <img src={copy1} alt="copy icon" className="absolute bottom-0" />
               <img
-                src={landing.copy1}
-                alt="copy icon"
-                className="absolute bottom-0"
-              />
-              <img
-                src={landing.copy2}
+                src={copy2}
                 alt="copy icon"
                 className="absolute left-1 -top-2"
               />

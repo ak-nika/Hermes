@@ -1,4 +1,4 @@
-import { landing } from "../assets";
+import { vector1, vector2, bodyIcons } from "../assets";
 
 const Section = ({ children, className }) => {
   return (
@@ -7,26 +7,28 @@ const Section = ({ children, className }) => {
         className || ""
       }`}
     >
+      {/* Background vectors */}
       <img
-        src={landing.vector1}
+        src={vector1}
         alt="vector"
         width={650}
         className="absolute rotate-[-15deg] left-[-200px] top-[-200px] hidden md:block"
       />
       <img
-        src={landing.vector2}
+        src={vector2}
         alt="vector"
         width={650}
         className="absolute rotate-[-15deg] right-[-150px] top-[-300px] hidden md:block"
       />
 
-      <div className="relative">
+      <div className="relative w-full h-full">
         <img
-          src={landing.bodyIcons}
+          src={bodyIcons}
           alt="icons"
-          className="absolute w-full h-full top-0 left-0 hover-icons hidden md:block"
+          className="absolute w-full h-full top-0 left-0 hover-icons hidden md:block z-10"
         />
-        {children}
+
+        <div className="relative z-20 w-full h-full">{children}</div>
       </div>
     </section>
   );

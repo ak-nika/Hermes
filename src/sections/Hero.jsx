@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
 
         <div className="flex items-center justify-center mt-7">
-          <Link to="/">
+          <Link to="/createAccount">
             <Button>Get Started</Button>
           </Link>
         </div>

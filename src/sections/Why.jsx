@@ -1,4 +1,4 @@
-import { landing } from "../assets";
+import { sparkle } from "../assets";
 import WhyCard from "../components/WhyCard";
 import { whyDetails } from "../constants";
 
@@ -19,7 +19,7 @@ const Why = () => {
             key={detail.id}
             text={detail.text}
             title={detail.title}
-            img={landing.sparkle}
+            img={sparkle}
           />
         ))}
       </div>

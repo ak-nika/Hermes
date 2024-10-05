@@ -15,7 +15,7 @@ import x from "./icons/x.svg";
 import menu from "./icons/menu.svg";
 import close from "./icons/close.svg";
 
-export const landing = {
+export {
   logo,
   vector1,
   vector2,
@@ -24,9 +24,10 @@ export const landing = {
   cupid,
   copy1,
   copy2,
+  rectangle,
+  menu,
+  close,
 };
-
-export { rectangle, menu, close };
 
 export const footerIcons = {
   whatsapp,

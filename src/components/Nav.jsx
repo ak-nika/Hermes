@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import { close, landing, menu } from "../assets";
+import { close, logo, menu } from "../assets";
 import { useState } from "react";
 
 const Nav = ({ links }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between bg-white px-10 py-5 sticky top-0 z-20">
+    <nav className="flex items-center justify-between bg-white px-10 py-5 sticky top-0 z-50">
       <div className="flex items-center gap-3">
-        <img src={landing.logo} alt="logo" width={50} />
+        <img src={logo} alt="logo" width={50} />
         <div className="pacifico font-normal text-2xl gradient-text">
           Hermes
         </div>
