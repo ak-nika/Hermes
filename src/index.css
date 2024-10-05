@@ -22,6 +22,9 @@
 .hover-icons {
   animation: float 1s ease-out infinite;
 }
+.hermes-gradient {
+  @apply bg-gradient-to-r from-hermes-blue to-hermes-purple;
+}
 
 @keyframes float {
   0% {

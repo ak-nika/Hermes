@@ -1,5 +1,6 @@
+import Cupid from "../sections/landing/Cupid";
 import Hero from "../sections/landing/Hero";
-import Nav from "../sections/landing/Nav";
+import Nav from "../components/Nav";
 import Why from "../sections/landing/Why";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Nav />
       <Hero />
       <Why />
+      <Cupid />
     </>
   );
 };

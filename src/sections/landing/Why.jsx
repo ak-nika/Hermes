@@ -13,7 +13,7 @@ const Why = () => {
         we are going to list some of them. Have a look below.
       </p>
 
-      <div className="flex items-center justify-between mt-10">
+      <div className="flex items-center justify-between mt-10 flex-wrap">
         {whyDetails.map((detail) => (
           <WhyCard
             key={detail.id}

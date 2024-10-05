@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { landing } from "../../assets";
+import Button from "../../components/Button";
 
 const Hero = () => {
   return (
@@ -44,9 +45,7 @@ const Hero = () => {
 
         <div className="flex items-center justify-center mt-7">
           <Link to="/">
-            <button className="text-white font-[500] text-[16px] leading-[24px] py-2 px-3 bg-hermes-purple rounded-full poppins">
-              Get Started
-            </button>
+            <Button>Get Started</Button>
           </Link>
         </div>
       </div>
