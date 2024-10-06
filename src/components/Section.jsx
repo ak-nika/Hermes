@@ -3,7 +3,7 @@ import { vector1, vector2, bodyIcons } from "../assets";
 const Section = ({ children, className }) => {
   return (
     <section
-      className={`overflow-hidden bg-gradient-to-r from-hermes-blue to-hermes-purple md:h-[650px] h-fit relative ${
+      className={`overflow-hidden bg-gradient-to-r from-hermes-blue to-hermes-purple md:h-[650px] h-fit relative p-5 ${
         className || ""
       }`}
     >
@@ -25,7 +25,7 @@ const Section = ({ children, className }) => {
         <img
           src={bodyIcons}
           alt="icons"
-          className="absolute w-full h-full top-0 left-0 hover-icons hidden md:block z-10"
+          className="absolute w-[80%] h-full inset-0 m-auto hover-icons hidden md:block z-10"
         />
 
         <div className="relative z-20 w-full h-full">{children}</div>

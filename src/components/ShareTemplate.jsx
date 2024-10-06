@@ -2,7 +2,7 @@ import { logo } from "../assets";
 
 const ShareTemplate = ({ text }) => {
   return (
-    <div className="hermes-gradient w-[45%] h-[303px] p-4 flex flex-col justify-between items-center">
+    <div className="hermes-gradient md:w-[45%] w-full h-[303px] p-4 flex flex-col justify-between items-center">
       <div>
         <h1 className="nunito text-white text-[20px] font-[600] leading-1 border-b-[1px] border-white pb-3">
           {text}

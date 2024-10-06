@@ -6,7 +6,7 @@ const Nav = ({ links }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between bg-white px-10 py-5">
+    <nav className="flex items-center justify-between bg-white px-10 py-5 sticky top-0 z-50 shadow-sm">
       <div className="flex items-center gap-3">
         <img src={logo} alt="logo" width={50} />
         <div className="pacifico font-normal text-2xl gradient-text">
