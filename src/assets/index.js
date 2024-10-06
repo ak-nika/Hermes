@@ -19,6 +19,9 @@ import facebookColour from "./icons/facebookColour.svg";
 import instaColour from "./icons/instaColour.svg";
 import mail from "./icons/mail.svg";
 import xColour from "./icons/xColour.svg";
+import whatsappColour from "./icons/whatsappColour.svg";
+import wingLetter from "./icons/wingLetter.svg";
+import duotoneCopy from "./icons/duotoneCopy.svg";
 
 export {
   logo,
@@ -33,6 +36,8 @@ export {
   menu,
   close,
   arrowRight,
+  wingLetter,
+  duotoneCopy,
 };
 
 export const footerIcons = {
@@ -44,3 +49,11 @@ export const footerIcons = {
 };
 
 export const contactIcons = { facebookColour, instaColour, mail, xColour };
+
+export const profileIcons = {
+  logo,
+  whatsappColour,
+  instaColour,
+  facebookColour,
+  xColour,
+};

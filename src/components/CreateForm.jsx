@@ -6,14 +6,14 @@ const CreateForm = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <form
-        action="#"
+        action="/login"
         className="bg-white w-[40%] min-w-[400px] px-7 py-4 rounded-2xl"
       >
         <div className="flex justify-center items-center mb-4">
           <img src={logo} alt="logo" width={64} height={64} />
         </div>
 
-        <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center">
+        <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center text-hermes-black">
           Create Your Account
         </h1>
         <p className="nunito font-[500] text-[14px] leading-[22.4px] text-center">

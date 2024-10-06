@@ -1,4 +1,4 @@
-import { contactIcons, footerIcons } from "../assets";
+import { contactIcons, footerIcons, profileIcons } from "../assets";
 
 export const whyDetails = [
   {
@@ -101,6 +101,49 @@ export const contactDetails = [
     name: "mail",
     text: "Send us a mail",
     img: contactIcons.mail,
+    link: "#",
+  },
+];
+
+export const profileLinks = [
+  { id: 1, name: "Home", path: "/", selected: false },
+  { id: 2, name: "My Profile", path: "/profile", selected: true },
+  { id: 3, name: "Contact Us", path: "/contact", selected: false },
+];
+
+export const profileDetails = [
+  {
+    id: 1,
+    name: "logo",
+    text: "View Your Messages",
+    img: profileIcons.logo,
+    link: "/messages",
+  },
+  {
+    id: 2,
+    name: "whatsapp",
+    text: "Share on WhatsApp",
+    img: profileIcons.whatsappColour,
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "instagram",
+    text: "Share on Instagram",
+    img: profileIcons.instaColour,
+  },
+  {
+    id: 4,
+    name: "x",
+    text: "Share on X(Twitter)",
+    img: profileIcons.xColour,
+    link: "#",
+  },
+  {
+    id: 5,
+    name: "facebook",
+    text: "Share on Facebook",
+    img: profileIcons.facebookColour,
     link: "#",
   },
 ];

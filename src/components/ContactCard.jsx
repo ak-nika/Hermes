@@ -6,7 +6,7 @@ const ContactCard = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <div className="bg-white w-[40%] min-w-[400px] px-7 py-4 rounded-2xl">
-        <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center mt-4">
+        <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center mt-4 text-hermes-black">
           Contact Us
         </h1>
         <p className="nunito font-[500] text-[18px] leading-[22.4px] text-center">

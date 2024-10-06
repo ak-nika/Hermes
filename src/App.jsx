@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import CreateAccount from "./pages/CreateAccount";
 import Login from "./pages/Login";
 import ContactUs from "./pages/ContactUs";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/createAccount" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
   );
