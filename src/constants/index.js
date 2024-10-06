@@ -58,12 +58,12 @@ export const footerLinks = [
 
 export const landingLinks = [
   { id: 1, name: "Home", path: "/", selected: true },
-  { id: 2, name: "Get Started", path: "/createAccount", selected: false },
+  { id: 2, name: "Get Started", path: "/login", selected: false },
   { id: 3, name: "Contact Us", path: "/", selected: false },
 ];
 
 export const startLinks = [
   { id: 1, name: "Home", path: "/", selected: false },
-  { id: 2, name: "Get Started", path: "/createAccount", selected: true },
+  { id: 2, name: "Get Started", path: "/login", selected: true },
   { id: 3, name: "Contact Us", path: "/", selected: false },
 ];

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { logo } from "../assets";
 import Button from "./Button";
 
-const CreateForm = () => {
+const LoginForm = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <form
@@ -14,7 +14,7 @@ const CreateForm = () => {
         </div>
 
         <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center">
-          Create Your Account
+          Login
         </h1>
         <p className="nunito font-[500] text-[14px] leading-[22.4px] text-center">
           Receive anonymous compliments from your friends and send anonymous
@@ -43,21 +43,24 @@ const CreateForm = () => {
         </label>
 
         <div className="flex justify-between items-center mt-4">
-          <Button>Create Account</Button>
+          <Button className={`w-[40%]`}>Login</Button>
           <Link
             to="/login"
             className="nunito font-[600] text-[16px] leading-[18px] text-center"
           >
-            Already Have an Account? Login
+            Don't have an account? Register
           </Link>
         </div>
 
-        <p className="nunito font-[500] text-[12px] leading-[18px] text-center mt-7">
-          By proceeding, you agree to the Privacy Policy and Terms of Use
-        </p>
+        <Link
+          to="/"
+          className="nunito font-[500] text-[12px] leading-[18px] text-center mt-7"
+        >
+          Forgot Password?
+        </Link>
       </form>
     </div>
   );
 };
 
-export default CreateForm;
+export default LoginForm;
