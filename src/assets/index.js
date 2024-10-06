@@ -14,6 +14,11 @@ import youtube from "./icons/youtube.svg";
 import x from "./icons/x.svg";
 import menu from "./icons/menu.svg";
 import close from "./icons/close.svg";
+import arrowRight from "./icons/arrowRight.svg";
+import facebookColour from "./icons/facebookColour.svg";
+import instaColour from "./icons/instaColour.svg";
+import mail from "./icons/mail.svg";
+import xColour from "./icons/xColour.svg";
 
 export {
   logo,
@@ -27,6 +32,7 @@ export {
   rectangle,
   menu,
   close,
+  arrowRight,
 };
 
 export const footerIcons = {
@@ -36,3 +42,5 @@ export const footerIcons = {
   youtube,
   x,
 };
+
+export const contactIcons = { facebookColour, instaColour, mail, xColour };

@@ -54,7 +54,7 @@ const LoginForm = () => {
 
         <Link
           to="/"
-          className="nunito font-[500] text-[12px] leading-[18px] text-center mt-7"
+          className="nunito block font-[500] text-[12px] leading-[18px] text-center mt-7"
         >
           Forgot Password?
         </Link>

@@ -1,4 +1,4 @@
-import { footerIcons } from "../assets";
+import { contactIcons, footerIcons } from "../assets";
 
 export const whyDetails = [
   {
@@ -59,11 +59,48 @@ export const footerLinks = [
 export const landingLinks = [
   { id: 1, name: "Home", path: "/", selected: true },
   { id: 2, name: "Get Started", path: "/login", selected: false },
-  { id: 3, name: "Contact Us", path: "/", selected: false },
+  { id: 3, name: "Contact Us", path: "/contact", selected: false },
 ];
 
 export const startLinks = [
   { id: 1, name: "Home", path: "/", selected: false },
   { id: 2, name: "Get Started", path: "/login", selected: true },
-  { id: 3, name: "Contact Us", path: "/", selected: false },
+  { id: 3, name: "Contact Us", path: "/contact", selected: false },
+];
+
+export const contactLinks = [
+  { id: 1, name: "Home", path: "/", selected: false },
+  { id: 2, name: "Get Started", path: "/login", selected: false },
+  { id: 3, name: "Contact Us", path: "/contact", selected: true },
+];
+
+export const contactDetails = [
+  {
+    id: 1,
+    name: "Instagram",
+    text: "Reach us on Instagram",
+    img: contactIcons.instaColour,
+    link: "#",
+  },
+  {
+    id: 2,
+    name: "X",
+    text: "Tweet us at support@hermesanon",
+    img: contactIcons.xColour,
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "Facebook",
+    text: "Drop us a message on Facebook",
+    img: contactIcons.facebookColour,
+    link: "#",
+  },
+  {
+    id: 4,
+    name: "mail",
+    text: "Send us a mail",
+    img: contactIcons.mail,
+    link: "#",
+  },
 ];
