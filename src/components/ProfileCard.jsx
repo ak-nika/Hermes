@@ -5,7 +5,7 @@ import { profileDetails } from "../constants";
 const ProfileCard = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="bg-white w-[40%] min-w-[400px] px-7 py-4 rounded-2xl relative">
+      <div className="bg-white w-[46px] min-w-[350px] px-7 py-4 rounded-2xl relative">
         <img
           src={wingLetter}
           alt="winged letter"

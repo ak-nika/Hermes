@@ -4,6 +4,7 @@ import CreateAccount from "./pages/CreateAccount";
 import Login from "./pages/Login";
 import ContactUs from "./pages/ContactUs";
 import Profile from "./pages/Profile";
+import Messages from "./pages/Messages";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/messages" element={<Messages />} />
       </Routes>
     </Router>
   );

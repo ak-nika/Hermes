@@ -5,7 +5,7 @@ import { arrowRight } from "../assets";
 const ContactCard = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="bg-white w-[40%] min-w-[400px] px-7 py-4 rounded-2xl">
+      <div className="bg-white w-[46px] min-w-[350px] px-7 py-4 rounded-2xl">
         <h1 className="poppins font-[600] text-[24px] leading-[36px] text-center mt-4 text-hermes-black">
           Contact Us
         </h1>
