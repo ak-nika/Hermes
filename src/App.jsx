@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import Profile from "./pages/Profile";
 import Messages from "./pages/Messages";
 import ShareResponse from "./pages/ShareResponse";
+import SendMessage from "./pages/SendMessage";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/share/:id" element={<ShareResponse />} />
+        <Route path="/send" element={<SendMessage />} />
       </Routes>
     </Router>
   );

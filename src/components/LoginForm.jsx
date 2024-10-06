@@ -28,7 +28,7 @@ const LoginForm = () => {
           <input
             type="text"
             placeholder="Enter Your Username"
-            className="text-[16px] font-[600] leading-[24px] nunito border-b-2 border-[#00000033] w-full outline-none mt-1 mb-6 pl-2"
+            className="text-[16px] font-[600] leading-[24px] nunito border-b-2 border-hermes-gray w-full outline-none mt-1 mb-6 pl-2"
           />
         </label>
         <label>
@@ -38,7 +38,7 @@ const LoginForm = () => {
           <input
             type="password"
             placeholder="Enter Your Password"
-            className="text-[16px] font-[600] leading-[24px] nunito border-b-2 border-[#00000033] w-full outline-none mb-6 mt-1 pl-2"
+            className="text-[16px] font-[600] leading-[24px] nunito border-b-2 border-hermes-gray w-full outline-none mb-6 mt-1 pl-2"
           />
         </label>
 
