@@ -31,7 +31,7 @@ const MessageCard = () => {
               </p>
 
               <Link
-                to={message.link}
+                to={`/share/${message.id}`}
                 className="block w-full py-2 border-[1px] border-hermes-blue text-center nunito text-[14px] leading-[22.4px] font-[500] rounded-full"
               >
                 Share Response

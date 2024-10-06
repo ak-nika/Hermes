@@ -154,12 +154,10 @@ export const messages = [
     id: 1,
     message: "Hey baby how is you?",
     time: "- Anonymous [01-10-2024 21:27 GMT]",
-    link: "#",
   },
   {
     id: 2,
     message: "Go and die already. I hate you!",
     time: "- Anonymous [01-10-2024 22:19 GMT]",
-    link: "#",
   },
 ];
