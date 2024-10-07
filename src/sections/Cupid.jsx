@@ -1,4 +1,4 @@
-import { cupid, copy1, copy2 } from "../assets";
+import { copy, cupid } from "../assets";
 import Button from "../components/Button";
 
 const Cupid = () => {
@@ -19,15 +19,8 @@ const Cupid = () => {
             thoughtful messages anonymously.
           </p>
           <Button className={`flex items-center gap-2 mt-4`}>
-            Copy Link
-            <div className="bg-red-100 relative w-[20px]">
-              <img src={copy1} alt="copy icon" className="absolute bottom-0" />
-              <img
-                src={copy2}
-                alt="copy icon"
-                className="absolute left-1 -top-2"
-              />
-            </div>
+            <span>Copy Link</span>
+            <img src={copy} alt="Copy" />
           </Button>
         </div>
       </div>

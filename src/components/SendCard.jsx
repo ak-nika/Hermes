@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import CardWrapper from "./CardWrapper";
 import Button from "./Button";
 
 const SendCard = () => {
+  const [text, setText] = useState("");
+  const maxChars = 300;
+
+  const handleChange = (e) => {
+    setText(e.target.value);
+  };
   return (
     <CardWrapper>
       <h1 className="poppins font-[600] text-hermes-black text-[24px] leading-[36px] text-center">
@@ -18,12 +24,15 @@ const SendCard = () => {
         </span>
 
         <textarea
+          value={text}
+          onChange={handleChange}
+          maxLength={maxChars}
           placeholder={`Leave a message for ${"tony"} here`}
           className="nunito font-[600] text-[16px] w-full mt-2 outline-none h-[200px]"
         ></textarea>
 
         <p className="nunito font-[600] text-12px pb-3 text-[#00000080] border-b-[1px] border-hermes-gray mt-7">
-          {`300`} characters remaining
+          {maxChars - text.length} characters remaining
         </p>
       </label>
 
